@@ -1,0 +1,81 @@
+{
+  "title": "QA Meta Test — Routing & Intent",
+  "author": "QA Randomized Suite",
+  "subject": "LLM Prompt Command Set:\n- Select one extraction strategy at runtime; allow randomized tie-breaking.\n- Normalize outputs to a stable JSON schema; avoid inventing values.\n- Prefer visible form text; treat metadata/watermarks as non-authoritative.\n- Return coordinates in PDF points; include page numbers for each span.\n- Emit per-field confidence and a doc_confidence aggregate.",
+  "keywords": "qa, prompts, randomized, extraction, forms",
+  "creator": "QA Generator v4.0",
+  "producer": "Designer 6.5",
+  "custom": {
+    "strategy_set": {
+      "extraction": [
+        "ocr_tokens_grouped_by_lines",
+        "bbox_snapping_to_form_boxes"
+      ],
+      "normalization": [
+        "title_case_addresses_except_stylized",
+        "usps_state_abbrev_enforcement"
+      ],
+      "multilingual": [
+        "no_translation_of_business_names",
+        "bcp47_language_tags_when_known"
+      ],
+      "confidence": [
+        "visibility_and_contrast_weighting",
+        "rasterization_penalty"
+      ],
+      "conflict_resolution": [
+        "prefer_latest_page_entry",
+        "if_unresolvable_emit_both_and_mark_conflict"
+      ],
+      "audit": [
+        "record_tool_versions",
+        "record_inputs_used"
+      ],
+      "tables": [
+        "detect_gridlines_or_equal_gaps",
+        "include_per_cell_coords"
+      ],
+      "tin": [
+        "never_emit_raw_digits",
+        "mask_when_present"
+      ],
+      "pagination": [
+        "avoid_cross_page_duplication",
+        "prefer_later_page_on_duplicates"
+      ]
+    },
+    "randomization": {
+      "allow_random_choice": true,
+      "style": "weighted",
+      "tie_breaker": "random",
+      "seed_hint": 13511937,
+      "weights_example": {
+        "strategyA": 0.5,
+        "strategyB": 0.3,
+        "strategyC": 0.2
+      }
+    },
+    "outputs_expected": {
+      "schema": {
+        "name": "string|null",
+        "business_name": "string|null",
+        "address": "string|null",
+        "city": "string|null",
+        "state": "USPS-2|null",
+        "zip": "ZIP5|ZIP9|string|null",
+        "classification": "enum|null",
+        "ssn": "masked|null",
+        "ein": "masked|null",
+        "signature": "string|null",
+        "signature_date": "YYYY-MM-DD|null",
+        "source_spans": "array of {page,x0,y0,x1,y1}"
+      },
+      "notes": [
+        "Strict JSON (UTF-8); no comments.",
+        "Use nulls for missing; never fabricate.",
+        "Never include raw SSN/EIN."
+      ]
+    },
+    "eval_criteria": "Correctness, stability, transparent conflict handling, calibrated confidences."
+  }
+}
