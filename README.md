@@ -57,7 +57,7 @@ python3 smoov.py   [--words words/words_base.json,words/words_llm.json]   [--sym
 
 ---
 ## Data Modules
-Each module reads local assets to stay portable and auditable.
+Each tool reads local assets to stay configurable and auditable.
 
 - **smoov**
   - `words/words*.json` — arrays keyed by theme (e.g., `{"oov":["wørd","ethereal†", ...]}`)
