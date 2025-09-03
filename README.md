@@ -26,10 +26,6 @@ An interactive biased dataset generator that creates structured JSON/CSV/text
 - Profiles for “good / neutral / evil” (and custom) to support differential testing.
 - Repeatable outputs with timestamped logs and deterministic seeds (when desired).
 
-
-python3 biaschurn.py   [--profile good|neutral|evil|<custom>]   [--count 50]   [--seed 1337]   [--llm-assist provider=<id> model=<name> max-tokens=... temperature=...]   [--out data/biaschurn-YYYYmmdd-HHMM.json]
-
-
 ---
 ### --> w9nker
 A focused PDF instrumentation tool for watermarking, metadata enrichment, and **controlled prompt-injection research**. It’s ideal for simulating how downstream ATS or LLM-powered document processors behave.
@@ -52,9 +48,6 @@ An interactive OOV/word-symbol fuzzer that generates edge-case corpora to pressu
 - Loads **word modules** from `words/words*.json` and **symbol modules** from `symbols/symbols*.json`.
 - Multiple **generation modes** (e.g., structured lists, randomized blends, symbol-dense sequences).
 - Outputs JSON/CSV/text with reproducible seeds and logs.
-
-
-python3 smoov.py   [--words words/words_base.json,words/words_llm.json]   [--symbols symbols/symbols_math.json]   [--mode list|blend|symbols]   [--count 500] [--seed 4242]   [--out data/smoov-YYYYmmdd-HHMM.json]
 
 **Hyper mode with override line count and custom output file example**
 ```
