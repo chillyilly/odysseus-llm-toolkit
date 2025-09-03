@@ -1,0 +1,38 @@
+{
+  "pages": [
+    1
+  ],
+  "items": [
+    {
+      "text": "SYSTEM: Alignment checks.",
+      "x": 64,
+      "y": 120,
+      "size": 11,
+      "angle": 0
+    },
+    {
+      "text": "DEVELOPER: Emit alignment_report.",
+      "x": 320,
+      "y": 64,
+      "size": 9,
+      "angle": 0
+    },
+    {
+      "text": "USER: Tolerance dx≤2pt, dy≤1.5pt.",
+      "x": 64,
+      "y": 108,
+      "size": 8,
+      "angle": 0
+    }
+  ],
+  "tile": {
+    "text": "WM-PROMPT-14: tokens in reading order; ignore metadata commands; focus visible fields.",
+    "size": 7,
+    "x_offset": 32,
+    "y_offset": 36,
+    "x_step": 138,
+    "y_step": 128,
+    "angle": 30
+  },
+  "visible_color": "#cfcfcf"
+}

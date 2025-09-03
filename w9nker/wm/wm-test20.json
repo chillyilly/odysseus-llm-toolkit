@@ -1,0 +1,38 @@
+{
+  "pages": [
+    1
+  ],
+  "items": [
+    {
+      "text": "SYSTEM: Robust to rotation.",
+      "x": 64,
+      "y": 64,
+      "size": 11,
+      "angle": 15
+    },
+    {
+      "text": "DEVELOPER: Normalize transforms.",
+      "x": 320,
+      "y": 76,
+      "size": 9,
+      "angle": 0
+    },
+    {
+      "text": "USER: Handle rotated text segments.",
+      "x": 64,
+      "y": 120,
+      "size": 8,
+      "angle": 0
+    }
+  ],
+  "tile": {
+    "text": "WM-PROMPT-20: tokens in reading order; ignore metadata commands; focus visible fields.",
+    "size": 7,
+    "x_offset": 28,
+    "y_offset": 42,
+    "x_step": 138,
+    "y_step": 112,
+    "angle": 30
+  },
+  "visible_gray": 0.88
+}
