@@ -56,11 +56,11 @@ Each module reads local assets to stay portable and auditable.
 - **smoov**
   - `words/words*.json` — arrays keyed by theme (e.g., `{"oov":["wørd","ethereal†", ...]}`)
   - `symbols/symbols*.json` — arrays of symbols/groups
-- **biaschurn**
+- **w9nker**
   - `profiles/*.json` — W9 form filler profiles
   - `wm/*.json` — watermark injection templates
   - `md/*.json` - metadata injection templates
-- **w9nker**
+- **biaschurn**
   - `core.good` — default good bias terms
   - `core.evil` — default evil bias terms
   - `core.neutral` — default neutral bias terms
@@ -68,8 +68,8 @@ Each module reads local assets to stay portable and auditable.
 
 **Setup**
 ```bash
-git clone https://github.com/chillyilly/odysseus-toolkit.git
-cd odysseus-toolkit
+git clone https://github.com/chillyilly/odysseus-llm-toolkit.git
+cd odysseus-llm-toolkit
 python3 -m venv .venv
 source .venv/bin/activate
 pip3 install requests 
