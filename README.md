@@ -64,7 +64,8 @@ Each module reads local assets to stay portable and auditable.
   - `core.good` — default good bias terms
   - `core.evil` — default evil bias terms
   - `core.neutral` — default neutral bias terms
-
+  - `names.good` — default name list
+  - `ultra.good` — default ultra positive bias terms
 
 **Setup**
 ```bash
