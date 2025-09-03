@@ -1,0 +1,83 @@
+## w9nker
+
+LLM PDF Prompt Injection Attack Tool. This tool recreates the IRS W‑9 form perfectly with various methods of LLM prompt injection. It also supports a W-9 bypass path to perform Resume LLM Prompt Injections against Applicant Tracking Systems . Output is tuned for pixel accuracy and repeatability.
+
+---
+## Features
+
+- Visual overlay (non‑form‑fill): Accurately places text, checkboxes, TIN digits, signature, and date.
+- Widget‑aware placement: Reads the template’s widget rectangles to match official boxes/lines.
+- TIN grid rendering: SSN (3‑2‑4) or EIN (2‑7) with centered digits per box.
+- Watermark layer: Invisible by default (white‑on‑white, beneath content) or previewable via `--wm-visible`.
+- PDF Info + XMP: Metadata from `md/*.json`; defaults `/Creator` and `/Producer` to “Designer 6.5”.
+- Fontwarp Attack options (overlay mode):
+  - `--fontwarp` (alternate fonts, strip `/ToUnicode`).
+  - `--fontwarp-aggressive` (rasterize overlay text).
+- Randomization: `--profile-rand`, `--meta-rand`, `--wm-rand` for LLM randomized LLM injection testing.
+- Flatten & cleanup: `--flatten` (remove widgets), `--clean` (delete temp overlays/watermarks).
+- Resume Injection Mode (`--w9bp`): Bypass W-9 functions and Apply only Metadata and Watermarks.
+
+---
+## Installation
+python3 -m venv .venv && source .venv/bin/activate   # or .venv\Scripts\activate on Windows
+pip3 install PyPDF2 reportlab Pillow json5
+
+> Optional fonts: The tool will use core PDF fonts by default; if `DejaVuSans.ttf` is available in the working directory, it will be used for enhanced compatibility.
+
+---
+## W-9 Injection Quick Starts
+
+LLM Prompt Inject W‑9 (overlay), visible watermark, flattened & cleaned
+python3 w9nker.py --template fw9.pdf --data profiles/vendor.json --meta md/md01.json --wm wm/wm1.json --wm-visible --flatten --clean
+
+W-9 Prompt Stress Test (aggressive overlay) with randomized inputs
+python3 w9nker.py --template fw9.pdf --profile-rand --meta-rand --wm-rand --fontwarp-aggressive --flatten --clean
+
+---
+### Resume Injection/ATS Testing: Why & What to Measure
+- Metadata injection: Some ATS/LLMs ingest PDF Info/XMP. Does it influence parsing/ranking?
+- Invisible text leakage: White‑on‑white text (beneath content) often appears in extracted text.
+- Prompt adherence: Do parsers follow instruction‑like strings hidden in metadata/watermarks?
+- Ranking sensitivity: Do hidden keywords affect search/match scores?
+
+Validate via:
+- `pdftotext resume_wm_invisible.pdf -` and search for watermark strings.
+- Inspect Info/XMP (e.g., Acrobat or `exiftool`); verify Creator/Producer show “Designer 6.5”.
+- Compare ATS‑parsed fields/scores between original and instrumented PDFs.
+
+---
+### Resume Prompt Injection Quick Starts
+
+Inject Metadata LLM prompts into Resume
+python3 w9nker.py --template resume.pdf --w9bp  --meta md/md-resume-002.json --output resume_meta_only.pdf --clean
+
+Inject Invisible Watermark LLM Prompts into Resume
+python3 w9nker.py --template resume.pdf --w9bp  --wm wm/wm-resume-010.json --output resume_wm_invisible.pdf --clean
+
+Preview watermark placement (light gray)
+python3 w9nker.py --template resume.pdf --w9bp  --wm wm/wm-resume-020.json --wm-visible --output resume_wm_visible.pdf --clean
+
+---
+## Complete CLI Usage
+
+--template fw9.pdf                   # required
+
+# Modes
+--w9bp                               # metadata + watermark only (no overlay)
+--data profiles/acme.json | --profile-rand
+
+# Metadata
+--meta md/md01.json | --meta-rand
+
+# Watermark
+--wm wm/wm1.json | --wm-rand | --wm-visible
+
+# QA-SEC (ignored with --w9bp)
+--fontwarp | --fontwarp-aggressive
+
+# Output
+--output out.pdf                     # default: YYYY-MM-DD-HHMMSS.pdf
+--flatten
+--clean
+
+> In `--w9bp` mode, `--fontwarp` options are ignored (they apply only to overlay rendering).
