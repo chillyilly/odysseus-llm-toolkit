@@ -73,5 +73,5 @@ git clone https://github.com/chillyilly/odysseus-llm-toolkit.git
 cd odysseus-llm-toolkit
 python3 -m venv .venv
 source .venv/bin/activate
-pip3 install requests 
+pip3 install requests PyPDF2 reportlab Pillow json5
 ```
