@@ -8,7 +8,15 @@ There are three components:
 - **biaschurn** — Interactive bias dataset generation with optional LLM-assisted synthesis.
 - **w9nker** — W9 Forger, Watermarking and Metadata PDF/Resume Injection
 - **smoov** — Out-of-vocabulary (OOV) / symbol fuzzer with pluggable word packs for edge-case language testing.
-
+---
+**Setup**
+```bash
+git clone https://github.com/chillyilly/odysseus-llm-toolkit.git
+cd odysseus-llm-toolkit
+python3 -m venv .venv
+source .venv/bin/activate
+pip3 install requests PyPDF2 reportlab Pillow json5
+```
 ---
 ### --> biaschurn
 An interactive biased dataset generator that creates structured JSON/CSV/text
@@ -67,11 +75,4 @@ Each module reads local assets to stay portable and auditable.
   - `names.good` — default name list
   - `ultra.good` — default ultra positive bias terms
 
-**Setup**
-```bash
-git clone https://github.com/chillyilly/odysseus-llm-toolkit.git
-cd odysseus-llm-toolkit
-python3 -m venv .venv
-source .venv/bin/activate
-pip3 install requests PyPDF2 reportlab Pillow json5
-```
+
