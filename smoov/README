@@ -1,0 +1,67 @@
+## smoov
+
+smoov is an interactive OOV (out-of-vocabulary) text fuzzer for generating diverse, noisy, and Unicode-rich fuzzing prompts. It’s great for stress-testing tokenizers, search pipelines, prompt handling, and downstream NLP systems.
+
+---
+
+## Features
+
+- Directory-driven lexicons (no code edits to change vocab):
+  - Loads words from `./words/words*.json`
+  - Loads symbols from `./symbols/symbols*.json`
+  - Accepts JSON lists or dicts of named sets
+  - Choose a single set or merge all
+- Six generation modes (ASCII & Unicode variants; nested patterns)
+- Deterministic seeding:
+  - `--seed <int>` or `--seed_text "<any string>"` (hashed to stable 64-bit int)
+- CLI + Interactive usage
+- Defaults to generic datasets if no files are present
+- Output controls: line counts, previews, timestamped filenames
+
+---
+# Run interactively
+python3 -m venv .venv
+source .venv/bin/activate
+python3 smoov.py
+
+## Generation Modes
+
+| Mode             | Description                                                                 | Default Lines |
+|------------------|-----------------------------------------------------------------------------|---------------|
+| `basic`          | ASCII “nonsense” lines with occasional words & symbols.                     | 40            |
+| `complex`        | Larger pools, variable line lengths, and nested segments.                   | 50            |
+| `hyper`          | Hyper-complex with explicit weights and light duplication.                  | 80            |
+| `mini_nested`    | Tiny tokens with a strong bias toward deeper nesting.                       | 8             |
+| `unicode_basic`  | Naïve Unicode tokens plus nesting (output written as UTF-8).                | 8             |
+| `unicode_heavy`  | UTF-8-safe random Unicode, deep nesting, heavy duplication.                 | 1000          |
+
+*Note:* `unicode_heavy` is capped to a maximum of 3000 lines to prevent overly large outputs.
+
+## CLI Usage
+
+# Show help
+python3 smoov.py -h
+
+# Run a single mode with defaults (merges all discovered sets)
+python3 smoov.py --mode complex
+
+# Preview the first 10 lines after writing
+python3 smoov.py --mode complex --preview 10
+
+# Override line count and custom output file
+python3 smoov.py --mode hyper --lines 120 --outfile out_hyper.txt
+
+# Deterministic seeds
+python3 smoov.py --mode basic --seed 1234
+python3 smoov.py --mode basic --seed_text "anime kingdom"
+
+# Choose specific directories & named sets (as discovered from JSON files)
+python3 smoov.py --mode unicode_heavy \
+  --words_dir ./words --symbols_dir ./symbols \
+  --words_set colors --symbols_set symbols_ascii_core
+
+# Run every mode (each writes its own file)
+python3 smoov.py --mode all
+
+# Non-interactive example with preview + text seed
+python3 smoov.py --mode complex --lines 60 --preview 5 --seed_text "Mary had a little LLM"
