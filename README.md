@@ -48,7 +48,7 @@ An interactive OOV/word-symbol fuzzer that generates edge-case corpora to pressu
 ```
 python3 smoov.py   [--words words/words_base.json,words/words_llm.json]   [--symbols symbols/symbols_math.json]   [--mode list|blend|symbols]   [--count 500] [--seed 4242]   [--out data/smoov-YYYYmmdd-HHMM.json]
 ```
-
+---
 ## Data Modules
 Each module reads local assets to stay portable and auditable.
 
