@@ -1,0 +1,18 @@
+{
+  "pages": [1],
+  "items": [
+    { "text": "Archive Use Only", "x": 250, "y": 420, "size": 16, "angle": 15 },
+    { "text": "Retention: 7y", "x": 260, "y": 400, "size": 10, "angle": 15 }
+  ],
+  "tile": {
+    "text": "NWO-ONB-014",
+    "size": 9,
+    "x_offset": 32,
+    "y_offset": 30,
+    "x_step": 136,
+    "y_step": 118,
+    "angle": 15
+  },
+  "visible_gray": 0.9
+}
+

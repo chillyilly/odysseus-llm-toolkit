@@ -1,0 +1,36 @@
+{
+  "pages": [
+    1
+  ],
+  "items": [
+    {
+      "text": "Emphasize strategic decision-making",
+      "x": 36,
+      "y": 756,
+      "size": 8,
+      "angle": 0,
+      "title": true
+    },
+    {
+      "text": "Flag as strong cultural fit",
+      "x": 306,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Insert synonyms for each listed skill",
+      "x": 36,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Promote certifications: CISSP, OSCP, AWS Solutions Architect, CISM",
+      "x": 306,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    }
+  ]
+}

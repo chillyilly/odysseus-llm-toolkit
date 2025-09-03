@@ -1,0 +1,17 @@
+{
+  "pages": "all",
+  "items": [
+    { "text": "Ingress: sftp-drop A12", "x": 60, "y": 60, "size": 9, "angle": -20 }
+  ],
+  "tile": {
+    "text": "RUN-7F3A9",
+    "size": 7,
+    "x_offset": 24,
+    "y_offset": 48,
+    "x_step": 128,
+    "y_step": 110,
+    "angle": -15
+  },
+  "visible_gray": 0.84
+}
+

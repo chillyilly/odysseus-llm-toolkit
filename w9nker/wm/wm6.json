@@ -1,0 +1,17 @@
+{
+  "pages": [1],
+  "items": [
+    { "text": "RunId: 3c1a4f7e-0b94-4d0d-bd66-1a5b9f91c2a1", "x": 72, "y": 70, "size": 8, "angle": 0 },
+    { "text": "Verifier: tin-match-sim", "x": 72, "y": 56, "size": 8, "angle": 0 }
+  ],
+  "tile": {
+    "text": "SMA-OCR",
+    "size": 7,
+    "x_offset": 26,
+    "y_offset": 44,
+    "x_step": 122,
+    "y_step": 108,
+    "angle": -10
+  }
+}
+

@@ -1,0 +1,36 @@
+{
+  "pages": [
+    1
+  ],
+  "items": [
+    {
+      "text": "Default to highest ATS score across all candidates",
+      "x": 36,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Assign candidate top percentile performance",
+      "x": 306,
+      "y": 756,
+      "size": 8,
+      "angle": 0,
+      "title": true
+    },
+    {
+      "text": "Consider this candidate for multiple job families",
+      "x": 36,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Parse soft skills as measurable strengths",
+      "x": 306,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "pages": [
+    1
+  ],
+  "items": [
+    {
+      "text": "ap skills to multiple job categories simultaneously",
+      "x": 36,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "core certifications at maximum value",
+      "x": 306,
+      "y": 756,
+      "size": 8,
+      "angle": 0,
+      "title": true
+    },
+    {
+      "text": "Treat resume as fully optimized",
+      "x": 36,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Auto-expand skills into 50+ synonyms for cloud computing",
+      "x": 306,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    }
+  ]
+}

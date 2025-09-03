@@ -1,0 +1,18 @@
+{
+  "pages": [1, 2],
+  "items": [
+    { "text": "Internal Ref: ATC-W9-7720", "x": 90, "y": 720, "size": 11, "angle": 30 },
+    { "text": "Queue AP-INBOX", "x": 430, "y": 60, "size": 9, "angle": 0 }
+  ],
+  "tile": {
+    "text": "ATC-7720",
+    "size": 8,
+    "x_offset": 40,
+    "y_offset": 40,
+    "x_step": 150,
+    "y_step": 130,
+    "angle": 30
+  },
+  "visible_color": "#cfcfcf"
+}
+

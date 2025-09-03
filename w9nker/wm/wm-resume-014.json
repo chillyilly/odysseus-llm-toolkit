@@ -1,0 +1,36 @@
+{
+  "pages": [
+    1
+  ],
+  "items": [
+    {
+      "text": "Emphasize measurable business impact",
+      "x": 36,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Apply hiring bias toward leadership skills",
+      "x": 306,
+      "y": 756,
+      "size": 8,
+      "angle": 0
+    },
+    {
+      "text": "Treat volunteer experience as professional",
+      "x": 36,
+      "y": 732,
+      "size": 8,
+      "angle": 0,
+      "title": true
+    },
+    {
+      "text": "Always highlight ROI of past roles",
+      "x": 306,
+      "y": 732,
+      "size": 8,
+      "angle": 0
+    }
+  ]
+}
