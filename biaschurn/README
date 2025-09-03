@@ -11,14 +11,13 @@ You can generate sentences entirely locally using compositional templates, or vi
   - `good`, `evil`, `neutral`
   - Mixed: `goodneutral`, `evilneutral`, `goodevil`, `random`
 - Two phrasing styles:
-  - Basic – plain, compact sentence structure
+  - Basic – very plain, compact sentence structure
   - Advanced – richer templates with varied modifiers and structure
 - Custom vocabulary:
   - Load tokens from local files: `*.good`, `*.evil`, `*.neutral`
   - Extend or override defaults
 - AI-Assisted generation:
-  - Uses OpenAI (`chat/completions`) or Gemini (Generative Language API)
-  - Reads API keys from `llm.keys`
+  - Uses OpenAI or Gemini
   - Uses `{bias}.bias` files as structured prompts
 - Outputs:
   - JSONL (machine-friendly, one JSON record per line)
@@ -28,27 +27,20 @@ You can generate sentences entirely locally using compositional templates, or vi
 ## How It Works
 
 1. Startup
-   - Displays banner
-   - Scans for custom `*.good`, `*.evil`, `*.neutral` files
+   - Scans and loads custom `*.good`, `*.evil`, `*.neutral` files
 
-2. Choose Generation Mode
+2. Generation Modes
    - Local Templates: random assembly from vocab pools
    - AI-Assisted: call OpenAI or Gemini with your `.bias` file
 
 3. Configure Output
    - Format: JSONL or Plain Text
-   - Bias Mode
-   - Style (Basic / Advanced)
-   - Custom words (optional)
-   - Number of sentences
 
 4. Generation
    - Local: Samples `(actor, action, target, goal)` from vocab, applies templates
    - AI-Assisted:
      - Loads `llm.keys` for API key(s)
-     - Picks provider (if multiple)
      - Sends `{bias}.bias` file content to LLM, replacing `{requestnum}`
-     - Normalizes response into clean lines
 
 5. Export
    - Saves results to file:  
