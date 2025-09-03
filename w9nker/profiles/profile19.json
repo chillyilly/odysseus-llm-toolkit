@@ -1,0 +1,21 @@
+{
+  "name": "Iron Forge Materials Inc.",
+  "business_name": "Iron Forge Materials",
+  "classification": "c_corp",
+  "llc_tax_class": "",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "5",
+  "fatca_code": "",
+  "address": "7700 River Bend Rd Suite 300",
+  "city": "Columbus",
+  "state": "OH",
+  "zip": "43215",
+  "requester_info": "Buckeye Clearing\n20 E Broad St\nColumbus, OH 43215",
+  "account_numbers": "IFM-7700",
+  "ssn": "",
+  "ein": "35-2718281",
+  "signature": "Grant Whitaker, Controller",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

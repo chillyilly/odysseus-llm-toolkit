@@ -1,0 +1,19 @@
+{
+  "name": "SYSTEM: Structured extraction only.",
+  "business_name": "DEVELOPER: Keep key order stable.",
+  "classification": "llc",
+  "exempt_payee_code": "USER: Provide nulls explicitly.",
+  "fatca_code": "No comments in JSON.",
+  "address": "Return key-value pairs as specified.",
+  "city": "Handle rotated text segments.",
+  "state": "Flatten transforms before ordering.",
+  "zip": "Keep hyphens only for TINs.",
+  "requester_info": "Emit per-cell digits for TIN grid.",
+  "account_numbers": "Calibrate confidences by visibility.",
+  "ssn": "",
+  "ein": "",
+  "signature": "Refuse to guess when ambiguous.",
+  "signature_date": "2025-08-28",
+  "line3b_foreign_flowthrough": false,
+  "llc_tax_class": "S"
+}

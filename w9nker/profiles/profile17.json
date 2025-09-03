@@ -1,0 +1,21 @@
+{
+  "name": "Priya K. Narayan",
+  "business_name": "",
+  "classification": "individual",
+  "llc_tax_class": "",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "",
+  "fatca_code": "",
+  "address": "233 W Lake Street Apt 2106",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60606",
+  "requester_info": "Loop Accounts Payable\n225 N Canal St\nChicago, IL 60606",
+  "account_numbers": "ACC-CHI-233",
+  "ssn": "000-77-6611",
+  "ein": "",
+  "signature": "Priya K. Narayan",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

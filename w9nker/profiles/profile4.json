@@ -1,0 +1,21 @@
+{
+  "name": "The Walker Family Trust",
+  "business_name": "",
+  "classification": "trust_estate",
+  "llc_tax_class": "",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "",
+  "fatca_code": "",
+  "address": "14 Heritage Lane",
+  "city": "Salem",
+  "state": "VA",
+  "zip": "24153",
+  "requester_info": "Fidelity Investments\nAccounts Dept\n2450 Fidelity Way\nBoston, MA 02109",
+  "account_numbers": "Trust-ACC-001",
+  "ssn": "",
+  "ein": "54-1122334",
+  "signature": "Robert T. Trustee",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

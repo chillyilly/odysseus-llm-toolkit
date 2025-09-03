@@ -1,0 +1,21 @@
+{
+  "name": "Silver Peak Hospitality LP",
+  "business_name": "",
+  "classification": "partnership",
+  "llc_tax_class": "",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "",
+  "fatca_code": "",
+  "address": "260 Summit View Blvd Suite 500",
+  "city": "Denver",
+  "state": "CO",
+  "zip": "80202",
+  "requester_info": "Rocky Mountain Payables\n1700 Lincoln St\nDenver, CO 80203",
+  "account_numbers": "SPH-LP-260",
+  "ssn": "",
+  "ein": "66-1029384",
+  "signature": "Peter Lang, Managing Partner",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

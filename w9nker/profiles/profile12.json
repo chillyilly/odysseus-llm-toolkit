@@ -1,0 +1,21 @@
+{
+  "name": "Sunrise Ventures LLC",
+  "business_name": "",
+  "classification": "llc_p",
+  "llc_tax_class": "P",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "",
+  "fatca_code": "",
+  "address": "410 Bayfront Parkway Suite 210",
+  "city": "Tampa",
+  "state": "FL",
+  "zip": "33602",
+  "requester_info": "Gulf Coast Merchant Svcs\n50 Channelside Dr\nTampa, FL 33602",
+  "account_numbers": "SVLLC-208",
+  "ssn": "",
+  "ein": "37-5554443",
+  "signature": "Ivy R. Delgado, Partner",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

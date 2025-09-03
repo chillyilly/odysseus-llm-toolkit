@@ -1,0 +1,21 @@
+{
+  "name": "Axis Robotics Corporation",
+  "business_name": "Axis Robotics",
+  "classification": "c_corp",
+  "llc_tax_class": "",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "5",
+  "fatca_code": "",
+  "address": "2400 Lake Shore Drive Suite 1200",
+  "city": "Chicago",
+  "state": "IL",
+  "zip": "60601",
+  "requester_info": "Midwest Clearing House\n330 W Wacker Dr\nChicago, IL 60606",
+  "account_numbers": "AXR-CHI-8810",
+  "ssn": "",
+  "ein": "51-2468101",
+  "signature": "Samuel P. Greene, Treasurer",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

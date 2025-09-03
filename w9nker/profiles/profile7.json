@@ -1,0 +1,21 @@
+{
+  "name": "Harrington Family Trust",
+  "business_name": "",
+  "classification": "trust_estate",
+  "llc_tax_class": "",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "",
+  "fatca_code": "",
+  "address": "18 Winding Creek Road",
+  "city": "Boulder",
+  "state": "CO",
+  "zip": "80302",
+  "requester_info": "Front Range Brokerage\n210 Pearl St\nBoulder, CO 80302",
+  "account_numbers": "TRUST-0093",
+  "ssn": "",
+  "ein": "53-9876543",
+  "signature": "Miriam S. Harrington, Trustee",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

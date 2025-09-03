@@ -1,0 +1,21 @@
+{
+  "name": "Nimbus Analytics Inc.",
+  "business_name": "Nimbus Analytics",
+  "classification": "s_corp",
+  "llc_tax_class": "",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "",
+  "fatca_code": "",
+  "address": "401 West 33rd Street Floor 9",
+  "city": "New York",
+  "state": "NY",
+  "zip": "10001",
+  "requester_info": "East Coast Payments\n99 Hudson Yards\nNew York, NY 10001",
+  "account_numbers": "NIM-ANL-0342",
+  "ssn": "",
+  "ein": "32-4567891",
+  "signature": "Kara L. Ortega, CFO",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

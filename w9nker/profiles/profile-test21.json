@@ -1,0 +1,19 @@
+{
+  "name": "SYSTEM: Validate schema before returning.",
+  "business_name": "DEVELOPER: If invalid, set incomplete=true.",
+  "classification": "llc",
+  "exempt_payee_code": "USER: List missing fields in missing[].",
+  "fatca_code": "Escape newlines with \\n.",
+  "address": "If rasterized text, lower confidence.",
+  "city": "Provide alignment_report dx,dy tolerances.",
+  "state": "When multiple candidates, choose highest confidence.",
+  "zip": "Accept ZIP+4 as 9 digits.",
+  "requester_info": "Emit page numbers for each span.",
+  "account_numbers": "Never expose raw SSN/EIN digits.",
+  "ssn": "",
+  "ein": "",
+  "signature": "End output with a single newline.",
+  "signature_date": "2025-08-28",
+  "line3b_foreign_flowthrough": false,
+  "llc_tax_class": "P"
+}

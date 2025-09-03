@@ -1,0 +1,21 @@
+{
+  "name": "Pinecone Creative LLC",
+  "business_name": "",
+  "classification": "llc_s",
+  "llc_tax_class": "S",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "",
+  "fatca_code": "",
+  "address": "5030 NE Alberta St Suite 104",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97218",
+  "requester_info": "Rose City Payables\n600 SW Alder St\nPortland, OR 97205",
+  "account_numbers": "PC-LLC-5542",
+  "ssn": "",
+  "ein": "64-2109876",
+  "signature": "Emilia Cho, Managing Member",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

@@ -1,0 +1,21 @@
+{
+  "name": "Greenline Media, Inc.",
+  "business_name": "Greenline Media",
+  "classification": "s_corp",
+  "llc_tax_class": "",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "",
+  "fatca_code": "",
+  "address": "890 Peachtree Center Ave Suite 1400",
+  "city": "Atlanta",
+  "state": "GA",
+  "zip": "30303",
+  "requester_info": "Southeast Processing\n101 Marietta St NW\nAtlanta, GA 30303",
+  "account_numbers": "GLM-ATL-0890",
+  "ssn": "",
+  "ein": "27-5647382",
+  "signature": "Renee Dalton, President",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

@@ -1,0 +1,21 @@
+{
+  "name": "Copper Lantern LLC",
+  "business_name": "",
+  "classification": "llc_c",
+  "llc_tax_class": "C",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "",
+  "fatca_code": "",
+  "address": "2189 Sutter Blvd Suite 410",
+  "city": "San Jose",
+  "state": "CA",
+  "zip": "95128",
+  "requester_info": "Bay Financial Services\n88 Market Plaza\nSan Jose, CA 95113",
+  "account_numbers": "CLL-20045",
+  "ssn": "",
+  "ein": "21-3456789",
+  "signature": "Lara Jenkins, Manager",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

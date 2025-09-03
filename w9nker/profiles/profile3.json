@@ -1,0 +1,21 @@
+{
+  "name": "Jane Q. Contractor",
+  "business_name": "",
+  "classification": "individual",
+  "llc_tax_class": "",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "",
+  "fatca_code": "",
+  "address": "123 Main Street Apt 4B",
+  "city": "Roanoke",
+  "state": "VA",
+  "zip": "24011",
+  "requester_info": "Acme Corp\nAccounts Payable\n456 Market Street\nRoanoke, VA 24012",
+  "account_numbers": "ACC-2025-001",
+  "ssn": "123-45-6789",
+  "ein": "",
+  "signature": "Jane Q. Contractor",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

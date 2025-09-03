@@ -1,0 +1,21 @@
+{
+  "name": "Marcus A. Lowell",
+  "business_name": "",
+  "classification": "individual",
+  "llc_tax_class": "",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "",
+  "fatca_code": "",
+  "address": "742 Pine Street Apt 3C",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98101",
+  "requester_info": "Northwest Billing\n120 Harbor Ave\nSeattle, WA 98126",
+  "account_numbers": "ACC-SEA-001",
+  "ssn": "000-12-3456",
+  "ein": "",
+  "signature": "Marcus A. Lowell",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

@@ -1,0 +1,21 @@
+{
+  "name": "Estate of Leonard Quill",
+  "business_name": "",
+  "classification": "trust_estate",
+  "llc_tax_class": "",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "",
+  "fatca_code": "",
+  "address": "311 Walnut Grove Lane",
+  "city": "Nashville",
+  "state": "TN",
+  "zip": "37203",
+  "requester_info": "Cumberland Fiduciary\n1401 Broadway\nNashville, TN 37203",
+  "account_numbers": "EST-LEOQ-311",
+  "ssn": "",
+  "ein": "80-1357911",
+  "signature": "Daphne Quill, Executor",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

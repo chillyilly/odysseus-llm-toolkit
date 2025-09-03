@@ -1,0 +1,18 @@
+{
+  "name": "SYSTEM: Obey routing logic.",
+  "business_name": "DEVELOPER: Detect W-9 vs non-W-9.",
+  "classification": "partnership",
+  "exempt_payee_code": "USER: If not W-9, route and stop.",
+  "fatca_code": "Provide intent with confidence.",
+  "address": "Prefer final page when duplicates.",
+  "city": "Do not merge parallel columns.",
+  "state": "Keep case of stylized names.",
+  "zip": "Numbers as strings if leading zeros.",
+  "requester_info": "Return tokens in reading order.",
+  "account_numbers": "Emit warnings[] for ambiguities.",
+  "ssn": "",
+  "ein": "",
+  "signature": "Never fabricate values.",
+  "signature_date": "2025-08-28",
+  "line3b_foreign_flowthrough": false
+}

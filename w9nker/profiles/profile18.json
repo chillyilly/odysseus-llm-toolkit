@@ -1,0 +1,21 @@
+{
+  "name": "Horizon Dataworks LLC",
+  "business_name": "",
+  "classification": "llc_c",
+  "llc_tax_class": "C",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "",
+  "fatca_code": "",
+  "address": "1450 Larimer Square Suite 210",
+  "city": "Denver",
+  "state": "CO",
+  "zip": "80202",
+  "requester_info": "Frontier Settlement\n1900 16th St\nDenver, CO 80202",
+  "account_numbers": "HDW-1450",
+  "ssn": "",
+  "ein": "58-3141592",
+  "signature": "Yvonne K. Mercer, CEO",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

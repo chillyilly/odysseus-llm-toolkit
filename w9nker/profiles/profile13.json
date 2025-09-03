@@ -1,0 +1,22 @@
+{
+  "name": "Blue Harbor Cooperative",
+  "business_name": "",
+  "classification": "other",
+  "other_text": "Cooperative association",
+  "llc_tax_class": "",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "",
+  "fatca_code": "",
+  "address": "902 Lighthouse Way",
+  "city": "San Diego",
+  "state": "CA",
+  "zip": "92101",
+  "requester_info": "Pacific Receivables\n77 Harbor Dr\nSan Diego, CA 92101",
+  "account_numbers": "BHC-COOP-0902",
+  "ssn": "",
+  "ein": "73-1123581",
+  "signature": "Tomas A. Marin, Chair",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

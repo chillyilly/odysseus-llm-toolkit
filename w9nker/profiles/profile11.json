@@ -1,0 +1,21 @@
+{
+  "name": "Elena D. Park",
+  "business_name": "",
+  "classification": "individual",
+  "llc_tax_class": "",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "",
+  "fatca_code": "",
+  "address": "15 Broad Street Apt 8D",
+  "city": "Boston",
+  "state": "MA",
+  "zip": "02110",
+  "requester_info": "Atlantic Payables\n100 Summer St\nBoston, MA 02110",
+  "account_numbers": "ACC-BOS-772",
+  "ssn": "000-33-2211",
+  "ein": "",
+  "signature": "Elena D. Park",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

@@ -1,0 +1,21 @@
+{
+  "name": "Red Mesa Partners",
+  "business_name": "",
+  "classification": "partnership",
+  "llc_tax_class": "",
+  "line3b_foreign_flowthrough": true,
+  "exempt_payee_code": "",
+  "fatca_code": "",
+  "address": "1550 Desert Ridge Blvd Suite 220",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85050",
+  "requester_info": "Southwest Capital\n500 Camelback Rd\nPhoenix, AZ 85012",
+  "account_numbers": "RMP-7781",
+  "ssn": "",
+  "ein": "45-1236789",
+  "signature": "Owen R. Chavez, GP",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+

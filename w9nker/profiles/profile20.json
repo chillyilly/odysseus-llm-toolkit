@@ -1,0 +1,21 @@
+{
+  "name": "Darius J. Nguyen",
+  "business_name": "",
+  "classification": "individual",
+  "llc_tax_class": "",
+  "line3b_foreign_flowthrough": false,
+  "exempt_payee_code": "",
+  "fatca_code": "",
+  "address": "1011 Brickell Bay Dr Apt 2307",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33131",
+  "requester_info": "Sunline Disbursements\n30 SE 2nd Ave\nMiami, FL 33131",
+  "account_numbers": "ACC-MIA-1011",
+  "ssn": "000-55-4433",
+  "ein": "",
+  "signature": "Darius J. Nguyen",
+  "signature_date": "2025-08-28",
+  "cross_out_backup_withholding": false
+}
+
