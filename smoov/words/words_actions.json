@@ -1,0 +1,22 @@
+[
+  "build",
+  "break",
+  "test",
+  "fuzz",
+  "probe",
+  "trace",
+  "scan",
+  "enumerate",
+  "measure",
+  "optimize",
+  "compose",
+  "deploy",
+  "ship",
+  "rollback",
+  "monitor",
+  "alert",
+  "triage",
+  "patch",
+  "verify",
+  "document"
+]

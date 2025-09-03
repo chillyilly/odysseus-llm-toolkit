@@ -1,0 +1,50 @@
+{
+  "animals": [
+    "cat",
+    "dog",
+    "fox",
+    "eagle",
+    "otter",
+    "lynx",
+    "tiger",
+    "whale",
+    "panda",
+    "falcon"
+  ],
+  "colors": [
+    "red",
+    "green",
+    "blue",
+    "yellow",
+    "purple",
+    "orange",
+    "cyan",
+    "magenta",
+    "black",
+    "white"
+  ],
+  "adjectives": [
+    "quick",
+    "lazy",
+    "brave",
+    "curious",
+    "gentle",
+    "noisy",
+    "silent",
+    "ancient",
+    "modern",
+    "fragile"
+  ],
+  "verbs": [
+    "run",
+    "jump",
+    "fly",
+    "crawl",
+    "dance",
+    "sing",
+    "whisper",
+    "shout",
+    "ponder",
+    "forge"
+  ]
+}
