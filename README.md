@@ -29,6 +29,7 @@ An interactive biased dataset generator that creates structured JSON/CSV/text
 
 python3 biaschurn.py   [--profile good|neutral|evil|<custom>]   [--count 50]   [--seed 1337]   [--llm-assist provider=<id> model=<name> max-tokens=... temperature=...]   [--out data/biaschurn-YYYYmmdd-HHMM.json]
 
+
 ---
 ### --> w9nker
 A focused PDF instrumentation tool for watermarking, metadata enrichment, and **controlled prompt-injection research**. It’s ideal for simulating how downstream ATS or LLM-powered document processors behave.
@@ -39,8 +40,8 @@ A focused PDF instrumentation tool for watermarking, metadata enrichment, and **
 - Generate per-document “injection capsules” (benign → adversarial scale) for LLM-pipeline analysis.
 - **ATS Testing/Resume Prompt Injection**: craft PDFs with realistic signals (sections/keywords) to evaluate parsing robustness.
 
-```bash
 Inject Invisible Watermark LLM Prompts into Resume
+```bash
 python3 w9nker.py --template resume.pdf --w9bp  --wm wm/wm-resume-010.json --output resume_wm_invisible.pdf --clean
 ```
 ---
@@ -55,6 +56,10 @@ An interactive OOV/word-symbol fuzzer that generates edge-case corpora to pressu
 
 python3 smoov.py   [--words words/words_base.json,words/words_llm.json]   [--symbols symbols/symbols_math.json]   [--mode list|blend|symbols]   [--count 500] [--seed 4242]   [--out data/smoov-YYYYmmdd-HHMM.json]
 
+Hyper mode with override line count and custom output file
+```
+python3 smoov.py --mode hyper --lines 120 --outfile out_hyper.txt
+```
 ---
 ## Data Modules
 Each tool reads local assets to stay configurable and auditable.
