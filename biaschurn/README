@@ -1,6 +1,6 @@
 ## biaschurn 
 
-Interactive LLM Bias Dataset Generation Tool. biaschurn is an interactive, menu-driven Python utility for generating LLM Prompts and Inputs with a chosen bias framing.  
+Interactive LLM Bias Dataset Generation Tool for generating LLM Prompts and Inputs with a chosen bias framing.  
 
 You can generate sentences entirely locally using compositional templates, or via AI-Assisted mode with OpenAI or Gemini.
 
