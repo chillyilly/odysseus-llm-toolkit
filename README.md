@@ -28,7 +28,7 @@ An interactive biased dataset generator that creates structured JSON/CSV/text
 
 ---
 ### --> w9nker
-A focused PDF instrumentation tool for watermarking, metadata enrichment, and **controlled prompt-injection research**. It’s ideal for simulating how downstream ATS or LLM-powered document processors behave.
+A focused PDF instrumentation tool for watermarking, metadata enrichment, and **controlled prompt-injection research**. It’s ideal for attacking how downstream ATS or LLM-powered document processors behave.
 
 **Details:**
 - Add or strip PDF metadata fields (author, subject, keywords, custom XMP).
