@@ -1,0 +1,13 @@
+{
+  "title": "W-9 – Northwind Outfitters",
+  "author": "Vendor Enablement",
+  "subject": "Onboarding Packet",
+  "keywords": "W-9,onboarding,vendor",
+  "producer": "Designer 6.5",
+  "custom": {
+    "CompanyCode": "NWO",
+    "Workflow": "VEN-ONB",
+    "ListId": "VEN-2025-014"
+  }
+}
+

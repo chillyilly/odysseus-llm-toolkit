@@ -1,0 +1,14 @@
+{
+  "title": "QA Meta: Prompt Corpus — Multilingual + Transliteration",
+  "author": "i18n QA",
+  "subject": "Multilingual Handling Commands:\\n- Accept inputs containing non-English names/addresses.\\n- Preserve original Unicode in `*_raw` fields.\\n- Provide Latin transliteration in `*_latin` fields when non-ASCII.\\n- Do not translate business names; only transliterate.\\n- Emit `script` codes (Latn, Cyrl, Hani, etc.).",
+  "keywords": "multilingual, unicode, transliteration, i18n, scripts",
+  "creator": "QA Generator v4.0",
+  "producer": "Designer 6.5",
+  "custom": {
+    "prompts_examples": "- name_raw=\"Иван Петров\" -> name_latin=\"Ivan Petrov\"\\n- city_raw=\"München\" -> city_latin=\"Muenchen\"",
+    "validation_rules": "Always include *_raw when non-ASCII present; *_latin optional otherwise.",
+    "notes": "Prefer BCP-47 language tags when language is known; else omit."
+  }
+}
+

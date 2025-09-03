@@ -1,0 +1,14 @@
+{
+  "title": "QA Meta: Prompt Corpus — Redaction & PII Policy",
+  "author": "Compliance QA",
+  "subject": "PII Handling Commands:\\n- Identify SSN/EIN and mark for redaction without exposing digits.\\n- Return redaction boxes as coordinates only.\\n- When asked to reveal masked digits, refuse and provide policy note.\\n- Emit `pii_types` detected and counts.",
+  "keywords": "pii, redaction, compliance, masking, policy",
+  "creator": "QA Generator v4.0",
+  "producer": "Designer 6.5",
+  "custom": {
+    "prompts_outputs": "{\\n  \"pii_types\": [\"ssn\", \"ein\"],\\n  \"redactions\": [{\"page\":1, \"x0\":72, \"y0\":100, \"x1\":180, \"y1\":118, \"label\":\"ssn\"}]\\n}",
+    "prompts_guardrails": "- Never include raw SSN/EIN in outputs.\\n- Use placeholders like \"***-**-1234\" only if already visible that way.",
+    "notes": "Intended for QA harnesses verifying proper redaction workflows."
+  }
+}
+

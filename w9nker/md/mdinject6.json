@@ -1,0 +1,14 @@
+{
+  "title": "QA Meta: Prompt Corpus — Tabular & Grid Extraction",
+  "author": "Struct QA",
+  "subject": "Table/Grid Commands:\\n- Extract any table-like content as an array of rows.\\n- For W-9 TIN cells, emit per-cell coordinates and digits.\\n- Include `col_headers` if detected; else null.\\n- Preserve row order; include page numbers for each row.",
+  "keywords": "tables, grid, cells, coordinates, rows",
+  "creator": "QA Generator v4.0",
+  "producer": "Designer 6.5",
+  "custom": {
+    "prompts_format": "{\\n  \"tables\": [{\\n    \"page\": n,\\n    \"col_headers\": [\"...\"],\\n    \"rows\": [[\"...\", \"...\" ]]\\n  }],\\n  \"tin_cells\": {\\n    \"type\": \"ssn|ein\",\\n    \"cells\": [{\"digit\": \"7\", \"page\": 1, \"x0\": 0, \"y0\": 0, \"x1\": 0, \"y1\": 0}]\\n  }\\n}",
+    "prompts_guardrails": "If no tables present, set `tables: []` (do not invent).",
+    "eval_criteria": "Cell order accuracy; exact digit-to-box mapping; stable coordinates."
+  }
+}
+

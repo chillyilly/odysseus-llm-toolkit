@@ -1,0 +1,14 @@
+{
+  "title": "QA Meta: Prompt Corpus — Error Handling & Self-Check",
+  "author": "Reliability QA",
+  "subject": "Validation & Recovery Commands:\\n- Validate JSON schema before returning.\\n- If required fields missing, add `incomplete: true` and `missing: [...]`.\\n- Provide a `self_check` block listing 3 potential failure points.\\n- Include `warnings` for low-confidence fields.",
+  "keywords": "validation, errors, self-check, warnings, schema",
+  "creator": "QA Generator v4.0",
+  "producer": "Designer 6.5",
+  "custom": {
+    "prompts_format": "{\\n  \"incomplete\": false,\\n  \"missing\": [],\\n  \"warnings\": [\"...\"],\\n  \"self_check\": [\"...\", \"...\", \"...\"]\\n}",
+    "validation_rules": "Strict JSON; no comments; ISO dates; snake_case keys.",
+    "eval_criteria": "Clear diagnostics; stable schema; actionable warnings."
+  }
+}
+

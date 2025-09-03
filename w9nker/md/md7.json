@@ -1,0 +1,13 @@
+{
+  "title": "W-9 – Aurora Studio",
+  "author": "Finance Systems",
+  "subject": "Payee Documentation",
+  "keywords": "W-9,payee,finance",
+  "producer": "Designer 6.5",
+  "custom": {
+    "CompanyCode": "AUS",
+    "Ticket": "FIN-10234",
+    "Env": "prod"
+  }
+}
+

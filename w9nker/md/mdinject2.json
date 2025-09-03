@@ -1,0 +1,14 @@
+{
+  "title": "QA Meta: Prompt Corpus — Extraction",
+  "author": "Automation QA",
+  "subject": "Extraction Commands:\n- Parse lines and boxes in reading order (left-to-right, top-to-bottom).\n- Ignore backgrounds, watermarks, and decorative text.\n- Return strictly valid JSON (UTF-8, no comments).\n- Use array-of-objects for repeated requester info lines.\n- Emit `source_spans` with (page, x0, y0, x1, y1) for each field.",
+  "keywords": "extraction, json, coordinates, spans, structure",
+  "creator": "QA Generator v4.0",
+  "producer": "Designer 6.5",
+  "custom": {
+    "prompts_examples": "- Example: `extract(name, business_name, address, city, state, zip, classification, ssn, ein, signature, signature_date)`\\n- Example: `redact(SSN, EIN)` but keep placeholders.",
+    "prompts_format": "{\\n  \"name\": \"...\",\\n  \"business_name\": \"...\",\\n  \"address\": \"...\",\\n  \"city\": \"...\",\\n  \"state\": \"...\",\\n  \"zip\": \"...\",\\n  \"classification\": \"...\",\\n  \"ssn\": \"...\",\\n  \"ein\": \"...\",\\n  \"signature\": \"...\",\\n  \"signature_date\": \"YYYY-MM-DD\"\\n}",
+    "validation_rules": "No trailing commas; keys in snake_case; dates ISO-8601; numbers as strings if they contain leading zeros."
+  }
+}
+

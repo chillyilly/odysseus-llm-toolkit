@@ -1,0 +1,13 @@
+{
+  "title": "W-9 – Meridian Freight",
+  "author": "Shared Services",
+  "subject": "Supplier Compliance",
+  "keywords": "W-9,logistics,compliance",
+  "producer": "Designer 6.5",
+  "custom": {
+    "CompanyCode": "MRD",
+    "Route": "AP-INGEST-01",
+    "DocClass": "W9-V1"
+  }
+}
+

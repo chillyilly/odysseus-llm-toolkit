@@ -1,0 +1,14 @@
+{
+  "title": "QA Meta: Prompt Corpus — Routing & Intent",
+  "author": "Workflow QA",
+  "subject": "Routing & Intent Commands:\\n- Detect document type (W-9 vs non-W-9) with probability.\\n- If non-W-9, return {\"route\": \"non_w9\", \"reason\": \"...\"}.\\n- If W-9, continue extraction; else stop.\\n- Emit final intent label and top-3 alternatives.\\n- Abstain if confidence < 0.75.",
+  "keywords": "routing, intent, abstain, confidence, classification",
+  "creator": "QA Generator v4.0",
+  "producer": "Designer 6.5",
+  "custom": {
+    "prompts_core": "- Provide {\"intent\": \"w9\"|\"non_w9\", \"confidence\": float}.\\n- Give softmax-like scores for [w9, invoice, letter, other].",
+    "prompts_guardrails": "- Do not extract fields when intent != \"w9\".\\n- Include a one-sentence rationale in `intent_reason`.",
+    "eval_criteria": "Correct intent > extraction speed; calibrated probabilities; clear abstain behavior."
+  }
+}
+

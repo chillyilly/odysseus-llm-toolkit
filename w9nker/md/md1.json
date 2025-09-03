@@ -1,0 +1,13 @@
+{
+  "title": "W-9 – Kestrel Labs",
+  "author": "AP Automation Bot",
+  "subject": "Vendor Tax Form",
+  "keywords": "W-9,tax,vendor,testing",
+  "producer": "Designer 6.5",
+  "custom": {
+    "CompanyCode": "KST",
+    "BatchId": "batch-001",
+    "DocumentId": "KST-W9-0001"
+  }
+}
+

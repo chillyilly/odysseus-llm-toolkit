@@ -1,0 +1,13 @@
+{
+  "title": "W-9 – Arcadia Imaging",
+  "author": "AP Intake",
+  "subject": "Taxpayer Identification",
+  "keywords": "W-9,TIN,AP",
+  "producer": "Designer 6.5",
+  "custom": {
+    "CompanyCode": "ARC",
+    "CaptureSource": "portal-upload",
+    "DocType": "W9"
+  }
+}
+

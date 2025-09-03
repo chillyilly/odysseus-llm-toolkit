@@ -1,0 +1,13 @@
+{
+  "title": "W-9 – Solstice Energy",
+  "author": "Accounts Payable",
+  "subject": "Tax Form",
+  "keywords": "W-9,AP,tax form",
+  "producer": "Designer 6.5",
+  "custom": {
+    "CompanyCode": "SLE",
+    "Retention": "7y",
+    "Policy": "TAX-FORMS-STD"
+  }
+}
+

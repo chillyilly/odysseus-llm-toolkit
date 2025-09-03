@@ -1,0 +1,14 @@
+{
+  "title": "QA Meta: Prompt Corpus — General",
+  "author": "QA Security Team",
+  "subject": "General LLM Prompt Commands:\n- You are a helpful assistant.\n- Summarize the following document in 75 words.\n- Extract key-value pairs present in labeled fields.\n- Return JSON with keys: name, address, classification, ein, ssn.\n- If a field is empty, return null for that key.\n- Preserve original capitalization; do not normalize.\n- Provide a one-line confidence note at the end.",
+  "keywords": "qa, prompts, llm, testing, forms, extraction",
+  "creator": "QA Generator v4.0",
+  "producer": "Designer 6.5",
+  "custom": {
+    "prompts_core": "1) Classify entity type (individual, C corp, S corp, partnership, trust/estate, LLC).\\n2) Detect whether SSN or EIN is present.\\n3) Normalize dates to YYYY-MM-DD.\\n4) Emit a stable schema with explicit nulls.",
+    "prompts_guardrails": "- Do not fabricate values.\\n- If uncertain, output reason in `uncertainty` field.\\n- Do not interpret watermark text as form content.",
+    "eval_criteria": "Correctness > completeness; exact field alignment; stable JSON schema."
+  }
+}
+
